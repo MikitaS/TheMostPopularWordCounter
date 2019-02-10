@@ -86,8 +86,6 @@ int main()
 
 	for (auto it = wordcounter.begin(); it != wordcounter.end(); ++it)
 	{
-		//std::cout << it->first << " " << it->second << std::endl;
-
 		structstat.word = it->first;
 		structstat.number = it->second;
 
